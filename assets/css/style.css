@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+
+main {
+  border: solid silver;
+  height: 122vh;
+  display: flex;
+  background-color: #fff;
+}
+
+section {
+  border: 2px solid silver;
+  height: 100%;
+  width: 100%;
+}
+
+
+#foto {
+    width: 30%;
+    height: 90%;
+    border-radius: 50%;
+}
+
+.profile {
+  flex-basis: 20%;
+  justify-content: space-between;
+}
+
+.texto-mari {
+    display: flex;
+    text-align:center;
+    flex-direction: column;
+   justify-content: center;
+   font-family:roboto;
+    }
+
+.user-mari {
+    border: solid silvera 2px;
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+}
+
+
+.texto-maria {
+    display: flex;
+    text-align:center;
+    flex-direction: column;
+   justify-content: center;
+   align-items: flex-start;
+   font-family:roboto;
+    }
+
+
+#foto-chat {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.iconos {
+    display: flex;
+    gap: 15px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+.profile-2 {
+    display: flex;
+}
+.mensajes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.fondo {
+    padding: 0;
+    border: 0;
+    bottom: 0;
+    font-family:roboto;
+}
+
+.user-maria {
+    border: solid silver 2px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+
+.cuadro-boton {
+    border:solid silver 2px;
+    width: 20rem;
+    height: 6rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.boton {
+    border: solid orangea 2px;
+    background-color:#A491D2;
+    width: 10rem;
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family:roboto;
+}
